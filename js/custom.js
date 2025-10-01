@@ -44,3 +44,15 @@ function myMap() {
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 }
+
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("openBtn");
+var span = document.getElementById("close");
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+modal.onclick = function() {
+    modal.style.display = "none";
+}
