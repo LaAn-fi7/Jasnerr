@@ -72,6 +72,14 @@ body {
   text-align: left;
 }
 
+.row1 {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 .pharapd {
   padding-top: 1rem;
 }
@@ -661,6 +669,7 @@ a:focus {
   -webkit-transition: all .1s;
   transition: all .1s;
   margin-top: 45px;
+  margin: 45px;
   background: -webkit-gradient(linear, left top, left bottom, from(#002759), to(#002b64));
   background: linear-gradient(to bottom, #003a86, #004299);
 }
